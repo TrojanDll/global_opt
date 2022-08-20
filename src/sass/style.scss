@@ -1,0 +1,21 @@
+@import 'libs/bootstrap-reboot.min';
+
+
+@import 'base/variables';
+@import 'base/mixins';
+
+
+*{
+    font-family: 'Museo', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+
+
+
+
+@import 'blocks/media';
