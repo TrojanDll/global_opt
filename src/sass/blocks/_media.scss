@@ -78,11 +78,26 @@
             }
         }
     }
+    .benefits {
+        &__wrapper {
+            justify-content: center;
+        }
+        &__block {
+            min-height: 0;
+            margin-top: 50px;
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    }
 }
 
 @media (max-width: 991px) {
     .container {
         max-width: 580px;
+    }
+    .title {
+        font-size: 24px;
     }
     .promo {
         .header {
@@ -124,6 +139,9 @@
     .container {
         max-width: 404px;
     }
+    .title {
+        font-size: 20px;
+    }
     .promo {
         &__subtitle {
             span {
@@ -161,6 +179,9 @@
     .container {
         max-width: 300px;
     }
+    .title {
+        font-size: 18px;
+    }
     .promo {
         &__title {
             font-size: 17px;
@@ -175,6 +196,14 @@
         }
         &__line {
             width: 132px;
+        }
+    }
+    .benefits {
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            font-size: 13px;
         }
     }
 }
