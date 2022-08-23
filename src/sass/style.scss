@@ -1,20 +1,22 @@
 @import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
 
 
 @import 'base/variables';
 @import 'base/mixins';
 
-
 *{
-    font-family: 'Museo', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .container {
     position: relative;
-    max-width: 950px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
 
+@import 'blocks/buttons';
+@import 'blocks/promo';
 
 
 
