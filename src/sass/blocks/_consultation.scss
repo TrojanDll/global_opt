@@ -1,0 +1,33 @@
+.consultation {
+    min-height: 400px;
+    padding: 56px 0 58px 0;
+    &__block {
+        min-height: 240px;
+        position: relative;
+        margin-top: 20px;
+    }
+    &__border {
+        position: absolute;
+        top: 51px;
+        z-index: -1;
+    }
+    &__img {
+        position: relative;
+        margin: 0 auto;
+        width: 102px;
+        height: 102px;
+        border: 2px solid $main-color;
+        border-radius: 100%;
+        img {
+            position: absolute;
+            max-width: 59px;
+            max-height: 65px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &__form {
+        margin: 0 auto;
+    }
+}

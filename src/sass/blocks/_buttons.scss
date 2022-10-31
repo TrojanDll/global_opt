@@ -17,6 +17,9 @@
         font-weight: 700;
         color: #fff;
     }
+    &_submit {
+        width: 180px;
+    }
     &:hover {
         background-color: $hove-color;
     }

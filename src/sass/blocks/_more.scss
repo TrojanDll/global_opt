@@ -1,20 +1,6 @@
 .more {
     min-height: 620px;
     padding: 51px 0 57px 0;
-    &__divider {
-        margin: 0 auto;
-        margin-top: 15px;
-        background-color: $main-color;
-        width: 150px;
-        height: 1px;
-    }
-    &__descr {
-        margin-top: 17px;
-        font-size: 21px;
-        font-weight: 300;
-        text-align: center;
-        color: #2e2e2e;
-    }
     &__wrapper {
         margin-top: 37px;
         display: flex;

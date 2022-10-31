@@ -1,0 +1,9 @@
+.divider {
+    margin: 0 auto;
+    background-color: $main-color;
+    width: 150px;
+    height: 1px;
+    &_mt15 {
+        margin-top: 15px;
+    }
+}

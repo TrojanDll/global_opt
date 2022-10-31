@@ -1,0 +1,25 @@
+.feed-form {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &_mt17 {
+        margin-top: 17px;
+    }
+    input {
+        width: 268px;
+        height: 45px;
+        margin: 0 6px 0 0;
+        padding: 18px 0 18px 28px;
+        border: solid 1px rgba(0, 0, 0, 0.21);
+        background-color: #fff;
+        font-size: 13px;
+        font-weight: 300;
+        color: rgba(16, 16, 16, 0.7);
+        border-radius: 25px;
+    }
+    .feed-form__button {
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
